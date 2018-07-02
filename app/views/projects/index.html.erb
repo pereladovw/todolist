@@ -1,0 +1,28 @@
+<head>
+  <meta charset="utf-8">
+  <title>Блоки</title>
+  <style>
+    h1 {
+      margin-bottom: 100px;
+    }
+  </style>
+</head>
+<body>
+<h1>Задачи</h1>
+
+<% @projects.each do |project| %>
+  <h3><%= project.title.upcase %></h3>
+  <ul>
+    <% project.todos.each do |todo| %>
+      <li><%= todo.text %></li>
+    <% end %>
+  </ul>
+<% end %>
+<div>
+<a id="add_todo" href="#">
+  <img src="images/todoimages/addTodoIcon.png">
+</a>
+</div>
+<%= render 'form' %>
+
+</body>
