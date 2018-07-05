@@ -64,11 +64,15 @@ h5.formTitle {
 .notCompletedToDo {
   position: relative;
   text-decoration: none;
+  left: 30px;
+  top: 2px;
  }
 .completedToDo {
   position: relative;
   text-decoration: line-through;
   word-wrap: break-word;
+  left: 30px;
+  top: 2px;
 }
 
 .title h1 {
