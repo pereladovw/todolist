@@ -1,0 +1,57 @@
+
+<div class="title">
+  <h1>Задачи</h1>
+    <a id="add_todo" href="#">
+      <img src="assets/todoimages/addTodoIcon-a18426db77b37d448a0d7fe6327f1fed6b7e9a91e3fb0c6ce0a8ce739c5dbeef.png">
+    </a>
+</div>
+
+<div class="row">
+  <% @projects.each do |project| %>
+
+    <div class="col-12 col-lg-4 col-md-6">
+
+      <div class= "project">
+        <h5><%= project.title.upcase %></h5>
+        <hr align="center"  size="-1" color="gray" />
+
+        <div class="list">
+          <% project.todos.each do |todo| %>
+
+<%@todo = Todo.find(todo.id) %>
+
+            <%= form_with scope: :mark,  url: todo_path, id: todo.id do |f| %>
+
+<%=@todo.id%>
+
+          <ul><div class="line">
+
+            <% if todo.isCompleted == false %>
+              <%=check_box_tag :st, "proj",  class: "myCheckbox" %>
+             <input , name="todo[todo_ids][]" type="checkbox" class="myCheckbox" id="<%= todo.id%>">
+              <label for="box<%= todo.id%>" class="notCompletedToDo" id="todo<%= todo.id %>"><%= todo.text %></label>
+              <% else %>
+
+              <input name="checked" type="checkbox" class="myCheckbox" id="<%= todo.id%>" checked>
+              <label for="box<%= todo.id%>" class="completedToDo" id="todo<%= todo.id %>" ><%= todo.text %></label>
+            <% end%>
+            </div>
+
+          </ul>
+            <%end%>
+          <% end %>
+         </div>
+
+      </div>
+
+    </div>
+
+  <% end %>
+</div>
+<%#@todo=Todo.find(1)%>
+<%#= form_with model: @todo,   url: project_path(@todo), :metod => :get,  id: "form-1" do |f| %>
+  <%#= check_box_tag "checked[true]",  false, class: "myCheckbox" %>
+<%# end%>
+<div  id="addingForm">
+  <%= render 'form' %>
+</div>

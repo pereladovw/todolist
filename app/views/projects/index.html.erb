@@ -1,28 +1,48 @@
-<head>
-  <meta charset="utf-8">
-  <title>Блоки</title>
-  <style>
-    h1 {
-      margin-bottom: 100px;
-    }
-  </style>
-</head>
-<body>
-<h1>Задачи</h1>
 
-<% @projects.each do |project| %>
-  <h3><%= project.title.upcase %></h3>
-  <ul>
-    <% project.todos.each do |todo| %>
-      <li><%= todo.text %></li>
-    <% end %>
-  </ul>
-<% end %>
-<div>
-<a id="add_todo" href="#">
-  <img src="assets/todoimages/addTodoIcon-a18426db77b37d448a0d7fe6327f1fed6b7e9a91e3fb0c6ce0a8ce739c5dbeef.png">
-</a>
+<div class="title">
+  <h1>Задачи</h1>
+    <a id="add_todo" href="#">
+      <img src="assets/todoimages/addTodoIcon-a18426db77b37d448a0d7fe6327f1fed6b7e9a91e3fb0c6ce0a8ce739c5dbeef.png">
+    </a>
 </div>
-<%= render 'form' %>
 
-</body>
+<div class="row">
+  <% @num = 10 %>
+  <% @projects.each do |project| %>
+    <div class="col-12 col-lg-4 col-md-6">
+      <div class= "project">
+        <h5><%= project.title.upcase %></h5>
+        <hr align="center"  size="-1" color="gray" />
+        <div class="list">
+          <% project.todos.each do |todo| %>
+            <%= form_with scope: :todo,  url: projects_update_path, :metod => :get,  id: todo.id do |f| %>
+
+          <ul><div class="line">
+            <%= f.hidden_field :id, :value => todo.id %>
+            <% if todo.isCompleted == false %>
+              <div class="todotext">
+             <input  type="checkbox" class="myCheckbox" id="<%= todo.id%>">
+              <label for="<%= todo.id%>" class="notCompletedToDo" id="todobox<%= todo.id %>"><%= todo.text %></label></div>
+              <% else %>
+              <div class="todotext">
+              <input  type="checkbox" class="myCheckbox" id="<%= todo.id%>" checked>
+              <label for="<%= todo.id%>" class="completedToDo" id="todobox<%= todo.id %>" ><%= todo.text %></label></div>
+            <% end%>
+            </div>
+
+          </ul>
+
+            <%end%>
+          <% end %>
+         </div>
+
+      </div>
+
+    </div>
+  <% end %>
+
+</div>
+
+<div  id="addingForm">
+  <%= render 'form' %>
+</div>

@@ -4,6 +4,14 @@ class ProjectsController < ApplicationController
   end
 
   def update
+    @todo = Todo.find(params.require(:todo).permit(:id)["id"])
+    if @todo.isCompleted
+      @todo.update(isCompleted: false)
+    else @todo.update(isCompleted: true)
+    end
+    redirect_to root_path
+
+
   end
 
   def create
@@ -13,12 +21,15 @@ class ProjectsController < ApplicationController
   end
 
 
+
+
   private
   def todo_params
-    params.require(:todo).permit(:text)
+    params.require(:todo).permit(:id, :text)
   end
 
   def project_params
     params.require(:todo).permit(:project_id)
   end
+
 end

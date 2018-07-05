@@ -1,15 +1,18 @@
 Rails.application.routes.draw do
-  get 'todos/index'
-  get 'todos/update'
-  get 'todos/create'
+  
   get 'projects/index'
   get 'projects/update'
   get 'projects/create'
+ 
+post '/projects/update'
+
 
   resources :projects do
     resources :todos
   end
 
   root 'projects#index'
+root 'projects#update'
+
 
 end

@@ -1,7 +1,11 @@
 <%= form_with scope: :todo, url: projects_path, id: "form-2" do |f| %>
-  <h3>НОВАЯ ЗАДАЧА</h3>
-  <%=f.text_field :text, options = { placeholder: "Название задачи...", size: "12"}  %> </br>
-  <%= f.collection_select( :project_id, Project.all, :id, :title) %> </br>
-  <%= link_to 'ОТМЕНА', "#", id: "back" %></hr>
-  <input type="submit" value="OK" class="link" />
+  <h5 class="formTitle">НОВАЯ ЗАДАЧА</h5>
+  <hr align="center"  size="-1" color="gray" />
+  <div id="addingField">
+    <%=f.text_field :text,class: "form-control",  placeholder: "Название задачи..."  %> </br>
+    <%= f.collection_select( :project_id, Project.all, :id, :title,{:prompt => ""},{:class => "selectList"}) %> </br>
+    <%= link_to 'ОТМЕНА', "#", id: "back", class: "cancelBtn"%></hr>
+    <%= link_to 'OK', "#", {:class => "addBtn", :type => "submit"} %></hr>
+
 <% end %>
+</div>

@@ -9,66 +9,58 @@
 //
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
-//
+
 //= require jquery
+
 //= require rails-ujs
 //= require activestorage
+//= require icheck.min
+
 //= require_tree .
+//= require select2
 
-addEvent(window, 'load', windowLoad);
-
-
-function addEvent(obj, evType, fn){
-    if (obj.addEventListener) {
-        obj.addEventListener(evType, fn, false);
-    } else if (obj.attachEvent) {
-        obj.attachEvent('on' + evType, fn);
-    }
-}
-
-function getParentForm(obj) {
-    while ((obj = obj.parentNode)) {
-        if (obj.nodeName == 'FORM') {
-            break;
-        }
-    }
-    return obj;
-}
-
-
-function windowLoad() {
-    var buttons = document.getElementsByTagName('input');
-    for (var i = 0; i < buttons.length ; i++) {
-        if (buttons[i].getAttribute('type') == 'submit' && buttons[i].className == 'link') {
-            var link = document.createElement('a');
-            link.appendChild(document.createTextNode(buttons[i].getAttribute('value')));
-            link.setAttribute('href', '#');
-            addEvent(link, 'click', linkClick);
-
-            var parent = buttons[i].parentNode;
-            parent.removeChild(buttons[i]);
-            parent.appendChild(link);
-        }
-    }
-
-}
-
-function linkClick(e) {
-    var e = window.event || e;
-    var target = e.target || e.srcElement;
-    var parentForm = getParentForm(target);
-    parentForm.submit();
-
-    if (window.event) { e.returnValue = false; } else { e.preventDefault(); }
-}
 $(document).ready(function() {
-    $('#form-2').hide();
+
+
+    $('input').iCheck({
+        checkboxClass: 'icheckbox_square-blue',
+
+    });
+
+
+    $('input').on('ifClicked', function (event) {
+        if($('#todobox' + this.id).hasClass('notCompletedToDo'))
+            $('#todobox' + this.id).removeClass('notCompletedToDo').addClass('completedToDo');
+        else $('#todobox' + this.id).removeClass('completedToDo').addClass('notCompletedToDo');
+        event.preventDefault();
+        $("#" + this.id).submit();
+        console.log(this.id);
+    })
+
+
+    $('#addingForm').hide();
     $('#add_todo').click(function() {
-        $('#form-2').show();
-        $('#add_todo').hide();
+        $('#addingForm').show();
+        $('input').iCheck('disable');
     });
     $('#back').click(function() {
-        $('#form-2').hide();
-        $('#add_todo').show();
+        $('#addingForm').hide();
+        $('input').iCheck('enable');
+
     });
+
+    $(".addBtn").click(function(event) {
+        event.preventDefault();
+        $("#form-2").submit();
+    });
+
+    $( ".selectList" ).select2({
+        dropdownParent: $('#addingField'),
+        placeholder: 'Категория',
+        minimumResultsForSearch: -1
+    });
+
+
 });
+
+
