@@ -50,8 +50,8 @@
       <file leaf-file-name="projects_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -389,12 +389,12 @@
       <workItem from="1530613163183" duration="1942000" />
       <workItem from="1530632536821" duration="40951000" />
       <workItem from="1530758845182" duration="48598000" />
-      <workItem from="1530815415631" duration="6580000" />
+      <workItem from="1530815415631" duration="7191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145801000" />
+    <option name="totallyTimeSpent" value="146412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1014" extended-state="6" />
@@ -689,8 +689,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
