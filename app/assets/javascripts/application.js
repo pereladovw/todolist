@@ -11,11 +11,9 @@
 // about supported directives.
 
 //= require jquery
-
 //= require rails-ujs
 //= require activestorage
 //= require icheck
-
 //= require_tree .
 //= require select2
 
