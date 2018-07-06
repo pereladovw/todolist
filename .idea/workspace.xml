@@ -2,7 +2,151 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8231769a-2b90-4f98-a540-f14707f15152" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/custom.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/icheck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/ie/arrow-bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/ie/arrow-top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/ie/header-line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/ie/icon-fork.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/ie/icon-github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/ie/icon-lab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/ie/icon-options.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/ie/icon-star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/montserrat-bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/montserrat-bold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/montserrat-bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/montserrat-bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/montserrat-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/montserrat-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/montserrat-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/montserrat-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/js/custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/js/zepto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/icheck.jquery.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/icheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/icheck.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/flat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/flat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/flat@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/futurico/futurico.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/futurico/futurico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/futurico/futurico@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/line.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/line@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/minimal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/minimal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/minimal@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/polaris/polaris.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/polaris/polaris.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/polaris/polaris@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/square.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/square@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/yellow@2x.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -18,15 +162,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/todolist@Development__todolist.rcov" NAME="Development: todolist Coverage Results" MODIFIED="1530827666271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="todolist" />
+    <SUITE FILE_PATH="coverage/todolist@Development__todolist.rcov" NAME="Development: todolist Coverage Results" MODIFIED="1530863227355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="todolist" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/projects/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="93" />
+            <state relative-caret-position="150">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -34,8 +178,8 @@
       <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/projects/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="645">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
@@ -43,8 +187,8 @@
       <file leaf-file-name="todos_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/todos_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="43" />
+            <state relative-caret-position="45">
+              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -53,16 +197,7 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.css.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -70,8 +205,8 @@
       <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+            <state relative-caret-position="345">
+              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -151,8 +286,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,12 +371,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="a&#9;FILE&#9;file:///home/reel/projects/todolist/config/application.rb&#10;application.r&#9;FILE&#9;file:///home/reel/projects/todolist/config/application.rb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../togithub" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -383,12 +518,14 @@
       <workItem from="1530613163183" duration="1942000" />
       <workItem from="1530632536821" duration="40951000" />
       <workItem from="1530758845182" duration="48598000" />
-      <workItem from="1530815415631" duration="12655000" />
+      <workItem from="1530815415631" duration="13254000" />
+      <workItem from="1530860593590" duration="37000" />
+      <workItem from="1530863045502" duration="239000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151876000" />
+    <option name="totallyTimeSpent" value="152512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1014" extended-state="6" />
@@ -400,12 +537,12 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21128319" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -583,9 +720,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/fonts/OpenSans-Semibold.ttf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/fonts/OpenSans-Semibold.ttf" />
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/vendor/icheck-1.x/icheck.js" />
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/icheck-rails-1.0.2.2/vendor/assets/stylesheets/icheck/square/blue.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -594,11 +729,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/vendor/skins/square/blue.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-317" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/vendor/skins/square/blue.css" />
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -619,9 +750,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/projects/todos/create.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/projects/todos/create.html.erb" />
     <entry file="file://$PROJECT_DIR$/app/views/projects/_form2.html.erb" />
     <entry file="file://$PROJECT_DIR$/db/seeds/seed.yml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -646,45 +775,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/projects/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+        <state relative-caret-position="345">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/todos_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/projects/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="45">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
+    <entry file="file://$PROJECT_DIR$/app/views/projects/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+        <state relative-caret-position="645">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/projects/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
