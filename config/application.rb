@@ -17,7 +17,7 @@ config.assets.js_compressor = :uglifier
     # the framework and any gems in your application.
     config.assets.enabled = true
     
-    config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
+    config.assets.paths << Rails.root.join( 'fonts')
     config.assets.paths << Rails.root.join('app', 'assets', 'javascripts', 'vendor')
 	
   end
