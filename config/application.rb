@@ -16,8 +16,8 @@ config.assets.js_compressor = :uglifier
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
     config.assets.enabled = true
-    config.assets.paths << Rails.root.join('/app/assets/fonts')
-    config.assets.paths << Rails.root.join('/home/reel/projects/todolist/app/assets/javascripts/vendor')
+    config.assets.paths << Rails.root.join('./app/assets/fonts')
+    config.assets.paths << Rails.root.join('./app/assets/javascripts/vendor')
     
 	
   end

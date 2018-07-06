@@ -2,151 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8231769a-2b90-4f98-a540-f14707f15152" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/custom.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/icheck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/ie/arrow-bottom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/ie/arrow-top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/ie/header-line.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/ie/icon-fork.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/ie/icon-github.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/ie/icon-lab.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/ie/icon-options.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/ie/icon-star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/montserrat-bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/montserrat-bold.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/montserrat-bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/montserrat-bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/montserrat-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/montserrat-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/montserrat-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/montserrat-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/js/custom.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/demo/js/zepto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/icheck.jquery.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/icheck.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/icheck.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/_all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/aero.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/aero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/aero@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/blue.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/blue@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/flat.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/flat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/flat@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/green@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/grey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/grey@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/orange.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/orange@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/pink.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/pink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/pink@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/purple.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/purple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/purple@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/red.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/red@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/yellow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/flat/yellow@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/futurico/futurico.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/futurico/futurico.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/futurico/futurico@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/_all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/aero.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/blue.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/grey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/line.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/line.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/line@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/orange.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/pink.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/purple.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/red.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/line/yellow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/_all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/aero.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/aero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/aero@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/blue.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/blue@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/green@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/grey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/grey@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/minimal.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/minimal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/minimal@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/orange.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/orange@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/pink.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/pink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/pink@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/purple.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/purple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/purple@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/red.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/red@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/yellow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/minimal/yellow@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/polaris/polaris.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/polaris/polaris.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/polaris/polaris@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/_all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/aero.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/aero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/aero@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/blue.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/blue@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/green@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/grey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/grey@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/orange.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/orange@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/pink.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/pink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/pink@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/purple.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/purple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/purple@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/red.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/red@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/square.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/square@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/yellow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/skins/square/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -162,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/todolist@Development__todolist.rcov" NAME="Development: todolist Coverage Results" MODIFIED="1530863227355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="todolist" />
+    <SUITE FILE_PATH="coverage/todolist@Development__todolist.rcov" NAME="Development: todolist Coverage Results" MODIFIED="1530863890418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="todolist" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -520,12 +377,12 @@
       <workItem from="1530758845182" duration="48598000" />
       <workItem from="1530815415631" duration="13254000" />
       <workItem from="1530860593590" duration="37000" />
-      <workItem from="1530863045502" duration="239000" />
+      <workItem from="1530863045502" duration="843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152512000" />
+    <option name="totallyTimeSpent" value="153355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1014" extended-state="6" />
