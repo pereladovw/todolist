@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8231769a-2b90-4f98-a540-f14707f15152" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
-    </list>
+    <list default="true" id="8231769a-2b90-4f98-a540-f14707f15152" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -19,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/todolist@Development__todolist.rcov" NAME="Development: todolist Coverage Results" MODIFIED="1530863890418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="todolist" />
+    <SUITE FILE_PATH="coverage/todolist@Development__todolist.rcov" NAME="Development: todolist Coverage Results" MODIFIED="1530864475382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="todolist" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -377,12 +374,12 @@
       <workItem from="1530758845182" duration="48598000" />
       <workItem from="1530815415631" duration="13254000" />
       <workItem from="1530860593590" duration="37000" />
-      <workItem from="1530863045502" duration="843000" />
+      <workItem from="1530863045502" duration="1306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153355000" />
+    <option name="totallyTimeSpent" value="153818000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1014" extended-state="6" />
