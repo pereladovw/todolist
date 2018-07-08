@@ -7,10 +7,10 @@ ruby '2.5.1'
 gem 'rails', '~> 5.0'
 # Use postgresql as the database for Active Record
 
-group: :production
+group: :production do
 gem 'pg', '~> 0.18'
 gem 'rails_12factor'
-
+end
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
