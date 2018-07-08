@@ -16,22 +16,25 @@
  *= require select2-bootstrap
  */
 
-@import 'blue.css';
+@import 'skins/square/blue.css';
 @import 'bootstrap-grid.min.css';
 
 
 
 @font-face {
     font-family: 'OpenSans-Semibold';
-  src: url('OpenSans-Semibold.ttf') format('truetype');
+  src: url(asset_path('OpenSans-Semibold.ttf'));
+  src: url(asset_path('OpenSans-Semibold.ttf')) format('truetype');
 }
 @font-face {
   font-family: 'OpenSans-Light';
-  src: url('OpenSans-Light.ttf') format('truetype');
+  src: url(asset_path('OpenSans-Light.ttf'));
+  src: url(asset_path('OpenSans-Light.ttf')) format('truetype');
 }
 @font-face {
   font-family: 'OpenSans-Regular';
-  src: url('OpenSans-Regular.ttf') format('truetype');
+  src: url(asset_path('OpenSans-Regular.ttf'));
+  src: url(asset_path('OpenSans-Regular.ttf')) format('truetype');
 }
 * {
     margin: 0;
