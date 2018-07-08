@@ -29,7 +29,7 @@ class ProjectsController < ApplicationController
   end
 
   def project_params
-    params.require(:todo).permit(:project_id)
+    params.require(:todo).permit(:project_id, :isCompleted => false)
   end
 
 end
