@@ -19,14 +19,15 @@
 
           <ul><div class="line">
             <%= f.hidden_field :id, :value => todo.id %>
-            <% if todo.isCompleted == false %>
+            <% if todo.isCompleted == true %>
               <div class="todotext">
-             <input  type="checkbox" class="myCheckbox" id="<%= todo.id%>">
-              <label for="<%= todo.id%>" class="notCompletedToDo" id="todobox<%= todo.id %>"><%= todo.text %></label></div>
+                <input  type="checkbox" class="myCheckbox" id="<%= todo.id%>" checked>
+                <label for="<%= todo.id%>" class="completedToDo" id="todobox<%= todo.id %>" ><%= todo.text %></label></div>
               <% else %>
               <div class="todotext">
-              <input  type="checkbox" class="myCheckbox" id="<%= todo.id%>" checked>
-              <label for="<%= todo.id%>" class="completedToDo" id="todobox<%= todo.id %>" ><%= todo.text %></label></div>
+                <input  type="checkbox" class="myCheckbox" id="<%= todo.id%>">
+                <label for="<%= todo.id%>" class="notCompletedToDo" id="todobox<%= todo.id %>"><%= todo.text %></label></div>
+
             <% end%>
             </div>
 
