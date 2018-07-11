@@ -19,7 +19,7 @@ class ProjectsController < ApplicationController
 
   end
 
-  def post
+  def androidupdate
     @todo = Todo.find(params.permit(:id)["id"]).update(isCompleted: params.permit("isCompleted"))
 
 
