@@ -19,11 +19,7 @@ class ProjectsController < ApplicationController
 
   end
 
-  def androidupdate
-    @todo = Todo.find(params.permit(:id)["id"]).update(isCompleted: params.permit("isCompleted"))
 
-
-  end
 
   def create
     @project = Project.find(project_params["project_id"])
@@ -41,7 +37,17 @@ class ProjectsController < ApplicationController
     render json: @todos
   end
 
+  def androidupdate
+    @todo = Todo.find(params.permit(:id)["id"]).update(isCompleted: params.permit("isCompleted"))
 
+
+  end
+
+  def androidcreate
+    @project = Project.find(params.permit("project_id"))
+    @todo = @project.todos.create(params.permit("id","text"))
+    redirect_to root_path
+  end
 
 
   private
