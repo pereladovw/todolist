@@ -38,7 +38,7 @@ class ProjectsController < ApplicationController
   end
 
   def androidupdate
-    @todo = Todo.find(params.permit(:id)["id"]).update(isCompleted: params.permit("isCompleted"))
+    @todo = Todo.find(params.permit(:id)["id"]).update(isCompleted: params.permit(:isCompleted)["isCompleted"])
 
 
   end
