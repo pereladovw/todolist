@@ -1,6 +1,16 @@
 class ProjectsController < ApplicationController
+
+  skip_before_action :verify_authenticity_token
+
+
   def index
     @projects = Project.all
+    respond_to do |format|
+
+      format.html # show.html.erb
+      format.json { render json: @projects }
+
+    end
   end
 
   def update
@@ -13,6 +23,8 @@ class ProjectsController < ApplicationController
 
 
   end
+
+
 
   def create
     @project = Project.find(project_params["project_id"])
