@@ -5,12 +5,7 @@ class ProjectsController < ApplicationController
 
   def index
     @projects = Project.all
-    respond_to do |format|
 
-      format.html # show.html.erb
-      format.json { render json: @projects }
-
-    end
   end
 
   def update
@@ -24,12 +19,20 @@ class ProjectsController < ApplicationController
 
   end
 
-
-
   def create
     @project = Project.find(project_params["project_id"])
     @todo = @project.todos.create(todo_params)
     redirect_to root_path
+  end
+
+  def projects
+    @projects = Project.all
+    render json: @projects
+  end
+
+  def todos
+    @todos = Todo.all
+    render json: @todos
   end
 
 

@@ -3,7 +3,8 @@ Rails.application.routes.draw do
   get 'projects/index'
   get 'projects/update'
   get 'projects/create'
- 
+  get 'projects/projects'
+  get 'projects/todos'
 post '/projects/update'
 
 
