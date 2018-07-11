@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get 'projects/todos'
 get 'projects/androidupdate'
 post '/projects/update'
+post 'projects/androidupdate'
 
 
   resources :projects do
