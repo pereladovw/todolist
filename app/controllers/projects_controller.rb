@@ -19,6 +19,12 @@ class ProjectsController < ApplicationController
 
   end
 
+  def post
+    @todo = Todo.find(params.permit(:id)["id"]).update(isCompleted: params.permit("isCompleted"))
+
+
+  end
+
   def create
     @project = Project.find(project_params["project_id"])
     @todo = @project.todos.create(todo_params)

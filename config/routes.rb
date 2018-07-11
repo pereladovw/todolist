@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'projects/create'
   get 'projects/projects'
   get 'projects/todos'
+get 'projects/post'
 post '/projects/update'
 
 
