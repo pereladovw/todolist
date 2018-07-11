@@ -44,7 +44,7 @@ class ProjectsController < ApplicationController
   end
 
   def androidcreate
-    @project = Project.find(params.permit("project_id"))
+    @project = Project.find(params.permit(:project_id)["project_id"])
     @todo = @project.todos.create(params.permit("id","text"))
     redirect_to root_path
   end
